@@ -15,5 +15,6 @@ body {
 }
 
 .btn {
-  color: #0072bc;
+  background-color: #0072bc;
+  color: White;
 }
