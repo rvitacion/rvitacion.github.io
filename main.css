@@ -13,3 +13,7 @@ body {
 .navbar {
   border-radius: 0;
 }
+
+.btn {
+  color: #0072bc;
+}
