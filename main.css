@@ -1,0 +1,14 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: Black;
+  background: url("bg.jpg") no-repeat left top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  border-radius: 0;
+}
