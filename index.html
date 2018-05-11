@@ -8,14 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Ryan Vitacion - Software Developer</title>
+    <title>Ryan Vitacion's Homepage</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet"> 
 
   </head>
 
@@ -23,24 +23,21 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom navbar-custom">
-      <div class="container">
-        <!--<a class="navbar-brand" href="#">Ryan Vitacion</a>-->
+      <div class="container justify-content-center">
+        <!--<a class="navbar-brand" href="https://rvitacion.github.io">Ryan Vitacion</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item text-center">
+              <a class="nav-link" href="" data-toggle="modal" data-target="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Résumé</a>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="vitacionresume.pdf">Résumé</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">GitHub</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="mailto:ryan.vitacion.108@my.csun.edu">E-Mail</a>
             </li>
           </ul>
         </div>
@@ -48,18 +45,47 @@
     </nav>
 
     <!-- Page Content -->
-    <section>
-      <div class="intro">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
+    <div class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4 justify-content-center">
+            <div class="text-center">
+              <img src="profile.jpg" class="rounded-circle img-fluid" alt="Profile Picture" id="profilepic">
               <h1 class="mt-5">Ryan Vitacion</h1>
-              <h5>Software Developer</h5>
+              <h4>Software Engineer</h4>
             </div>
           </div>
+          <div class="col-4"></div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">About Me</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center">
+              <img src="pic.jpg" class="rounded img-fluid" alt="CSUN ECS Scholarship Ceremony 2016">
+              <p><i>CSUN ECS Scholarship Ceremony 2016</i></p>
+              <p>Hello and welcome!<br>My name is Ryan Vitacion and I am graduate student currently pursuing a Master's of Science Degree 
+              in Software Engineering at California State University Northridge.  Feel free to visit the links at the bottom of this 
+              page for more info about me.<br>Thanks for visiting!</p>
+            </div>
+          </div>
+          <!--<div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>-->
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
