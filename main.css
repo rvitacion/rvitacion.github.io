@@ -14,8 +14,9 @@ body {
 }
 
 .intro {
-  color: #2f2f2f;
-  margin-top: 20vh;
+  color: White;
+  text-shadow: 0px 0px 6px Black, 0px 0px 6px Black;
+  margin-top: 15vh;
 }
 
 .navbar-custom {
